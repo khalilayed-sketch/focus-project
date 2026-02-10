@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru" class="theme-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+    <link rel="stylesheet" href="./styles/light.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__theme-menu">
+            <button class="header__theme-menu-button" data-theme="light">День</button>
+            <button class="header__theme-menu-button header__theme-menu-button_active" data-theme="dark">Неон</button>
+            <button class="header__theme-menu-button" data-theme="auto">Авто</button>
+        </div>
+        
+        <div class="decorated-zone">
+            <div class="header__rec" aria-hidden="true">REC</div>
+            <h1 class="header__title">Сложно сосредоточиться</h1>
+            <p class="header__text title-decor">
+                Фокус — это навык, который можно развивать. 
+                Давайте разберёмся, как это сделать.
+            </p>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="why-focus">
+            <h2 class="why-focus__title title-decor">Почему сложно сосредоточиться</h2>
+            <div class="why-focus__text">
+                <p>Мозг постоянно обрабатывает информацию. В среднем за день через него проходит около 34 ГБ данных.</p>
+                <p>Основная задача мозга — обеспечить выживание организма. Поэтому он всегда настороже и сканирует окружение на предмет опасностей.</p>
+                <p>Когда мы пытаемся сосредоточиться, мозг начинает экономить энергию и переключается на более простые задачи.</p>
+            </div>
+        </section>
+
+        <section class="distractions">
+            <h2 class="distractions__title title-decor">Что отвлекает чаще всего</h2>
+            <div class="distractions__list">
+                <article class="distraction">
+                    <h3 class="distraction__title title-decor">Уведомления</h3>
+                    <p class="distraction__text">Смартфоны и приложения созданы, чтобы привлекать внимание.</p>
+                </article>
+                <article class="distraction">
+                    <h3 class="distraction__title title-decor">Многозадачность</h3>
+                    <p class="distraction__text">Попытки сделать несколько дел одновременно снижают эффективность.</p>
+                </article>
+                <article class="distraction">
+                    <h3 class="distraction__title title-decor">Усталость</h3>
+                    <p class="distraction__text">Недостаток сна и переутомление ухудшают концентрацию.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="techniques">
+            <h2 class="techniques__title title-decor">Как улучшить фокус</h2>
+            <div class="techniques__list">
+                <article class="technique">
+                    <h3 class="technique__title">Помодоро</h3>
+                    <p class="technique__text">25 минут работы, 5 минут отдыха. Помогает избежать выгорания.</p>
+                </article>
+                <article class="technique">
+                    <h3 class="technique__title">Медитация</h3>
+                    <p class="technique__text">Регулярная практика учит осознанности и контролю над мыслями.</p>
+                </article>
+                <article class="technique">
+                    <h3 class="technique__title">Цифровой детокс</h3>
+                    <p class="technique__text">Временный отказ от гаджетов снижает уровень стресса.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2 class="gallery__title title-decor">Галерея фокуса</h2>
+            <div class="gallery__grid">
+                <div class="gallery__image-placeholder">Картинка 1</div>
+                <div class="gallery__image-placeholder">Картинка 2</div>
+                <div class="gallery__image-placeholder">Картинка 3</div>
+                <div class="gallery__image-placeholder">Картинка 4</div>
+                <div class="gallery__image-placeholder">Картинка 5</div>
+                <div class="gallery__image-placeholder">Картинка 6</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="decorated-zone">
+            <h2 class="footer__title">Концентрация — это практика</h2>
+            <p class="footer__text">© 2023 Проект о фокусе и внимании</p>
+        </div>
+    </footer>
+
+    <script src="./scripts/theme-switcher.js"></script>
+</body>
+</html>
