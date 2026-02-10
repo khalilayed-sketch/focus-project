@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; }
+body {
+    background: #000028;
+    color: #F1B2CE;
+    font-family: monospace;
+    padding: 20px;
+}
+.header {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.header__title {
+    color: #DB00FF;
+    font-size: 100px;
+    text-shadow: 4px 4px 0 #FF0070;
+}
+.title-decor {
+    background: #FF0070;
+    color: #000028;
+    padding: 10px;
+}
+button {
+    background: transparent;
+    border: 1px solid #FF0070;
+    color: #FF0070;
+    padding: 10px;
+}
